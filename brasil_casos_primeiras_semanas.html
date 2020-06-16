@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Crescimento Casos Primeiras Semanas</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.0.1.min.js" integrity="sha384-JpP8FXbgAZLkfur7LiK3j9AGBhHNIvF742meBJrjO2ShJDhCG2I1uVvW+0DUtrmc" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="916944e7-16be-4e41-bf4e-47b6ec3dbdcb" data-root-id="1001"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="1202">
+          {"5750a0bd-7912-4071-87c7-a98d5cdeac92":{"roots":{"references":[{"attributes":{},"id":"1015","type":"BasicTicker"},{"attributes":{},"id":"1065","type":"Selection"},{"attributes":{"text":""},"id":"1058","type":"Title"},{"attributes":{"overlay":{"id":"1034"}},"id":"1024","type":"BoxZoomTool"},{"attributes":{},"id":"1021","type":"WheelZoomTool"},{"attributes":{"callback":null},"id":"1018","type":"HoverTool"},{"attributes":{},"id":"1027","type":"ResetTool"},{"attributes":{"callback":null},"id":"1028","type":"TapTool"},{"attributes":{},"id":"1019","type":"CrosshairTool"},{"attributes":{},"id":"1061","type":"BasicTickFormatter"},{"attributes":{},"id":"1022","type":"ZoomInTool"},{"attributes":{},"id":"1006","type":"LinearScale"},{"attributes":{"data":{"fill_color":["#442096","#441e96","#441e96","#442096","#461e96","#461e96","#461e96","#462096","#462696","#462a96","#462a96","#482a96","#481e96","#483096","#484296","#485096","#484896","#484c96","#4abc96","#4a6296","#4a9096","#4a13096","#4a1a096","#4a25496","#4a1de96","#4c36296","#4c2d096","#4c28a96","#4c1ee96","#4c3e296","#4c40a96","#4c3ea96","#4e2e096","#4e2a496","#4e90296","#4e8d896","#4e88696","#4e91296","#4e9aa96","#506c696","#5075a96","#50d1896","#50116296","#50f3296","#50e0896","#508a096","#52b6296","#529f896","#52e6e96","#52180296","#52109096","#52199096","#5216e896","#54102c96","#54f2c96","#5413a296","#54150a96","#541d4c96","#541b7c96","#542b3296","#561a8496","#56242896","#562a3096","#56312696","#56388296","#562e5c96","#5627f096","#58253c96","#5833f096","#58364c96","#58522c96","#584d5e96","#584ffa96","#58530496","#5a34ee96","#5a2c1e96","#5a487296","#5a591096","#5a6d0e96","#5a77b096","#5a74ac96","#5c3e2296","#5c66c696","#5c881e96","#5c9bfc96","#5c90b696","#5ca2a496","#5c811696","#5e7ba896","#5e5b6c96","#5e7fa696","#5ea10c96","#5ece8096","#5ed27e96","#5e1041296","#607b3e96","#605fcc96","#60e22e96","#60dfd096","#60f1b896","#60f0fa96","#60d3a496","#6293de96","#627a6a96"],"radius":{"__ndarray__":"LFN5AFo68z/+0jcfuuHlP9l6p9aIIvI/9Y9vuDmc5j/AY9C3d7jaPxlUbHAqve8//f3jFldQ8j/n6TkR7rnUP7xu5DfKArk/PX+fLmbr8z9AHZQukfDbPwc8NkfxyvA/FHUQbFDX4D8hESDC22PVP9CWlgfCH/A/aE9SDRYJyD8EH99yTe30PxUFxBjkSeo/LFlVxG6x8z+tMh0AbvvkP3sp1/h3QtA/XSGNxrEY3j9kAdTsxqP1P7aRjchORtU/jMo4Hxvp4T9Aq0Fr67PxP9KEtczRvNA/JstROjxv3D+GDLpI9pP1P8jw6Aew19w/yfH6rW7j4D8URELu/WrvP/wL1Unl0Mw/OMK4e++p8j/YGfE00UL3PzolrJN8w+g/8MAWT8yMyj+8vSy8fHrsPwCN88ZGIlA/zvLpLrzg9T/+rKpur0DkP6uPPFBoPNs/lAo6g/OH8j8/4Gxb9+ThP+SFD4gFFuM/SVP+iXFx7z95GaxDfyzzPwBi68pryIA/plGck62zwz/yebO6KwboP+Emor76tfE/ZOp9zuP26z8wgZy1Szu4P0xjP48iAtg/DPrx3cfJ7T94fxI7JrTrP4A4e8dlO44/bJrei4lk7z8AL3gqBPC1Pw738RHADdo/ClRj949p3T9WAGugQrL0P/M3VjNU7eI/yjpUtOUp8T8WH/MWWo/cP8cJnMTMieE/kpfSRXA+wj/+0rgGCSviPxxrPXqZv7Y/TtoFbSOd8j+X0VbHB2HQP4xMPG27L+w/58fNLZla9T/QmW85a3GfP2hrsytsi+E/hR7b67yt8z+er3wztg/rP+pYTsMXmvM/BvEBE66L4D/Nn+eLgsP3P5g1geSvje0/m1it3svx9j8AQhh1U1WbP2ibB0TRuvY/WMr4lgCStT/cX7rbjYzuP9AEWqBde+Y/Lc7w0r8m1T8a79KBJ1jyP2QWeDtFX/Y/PN9vh3hA9T8L6Xh+PfnfPwjcjlYQjeI/oUZT3vcA8T9hP5w60t3hP0rVTinHS+A/DHyGZ+pi4j+oTC4N66HLPybGdhYrLfQ/Iy9x9vyC1D9iJTDlTX/pP+kQEaIF5Oc/DChg4mZZ5z8UrCO45P29Pw==","dtype":"float64","shape":[104]},"x":[9,9,9,9,10,10,10,10,10,10,10,11,11,11,11,11,11,11,12,12,12,12,12,12,12,13,13,13,13,13,13,13,14,14,14,14,14,14,14,15,15,15,15,15,15,15,16,16,16,16,16,16,16,17,17,17,17,17,17,17,18,18,18,18,18,18,18,19,19,19,19,19,19,19,20,20,20,20,20,20,20,21,21,21,21,21,21,21,22,22,22,22,22,22,22,23,23,23,23,23,23,23,24,24],"y":[1,0,0,1,0,0,0,1,4,6,6,6,0,9,18,25,21,23,79,34,57,137,193,283,224,418,345,310,232,482,502,486,353,323,1138,1117,1076,1146,1222,852,926,1661,2210,1930,1781,1089,1442,1261,1832,3058,2105,3257,2917,2055,1927,2498,2678,3735,3503,5514,3379,4613,5385,6276,7218,5919,5097,4751,6633,6935,10503,9888,10222,10611,6760,5632,9258,11385,13944,15305,14919,7938,13140,17408,19951,18508,20803,16508,15813,11687,16324,20599,26417,26928,33274,15760,12247,28936,28633,30925,30830,27075,18912,15654]},"selected":{"id":"1065"},"selection_policy":{"id":"1064"}},"id":"1053","type":"ColumnDataSource"},{"attributes":{},"id":"1026","type":"RedoTool"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"1035","type":"PolyAnnotation"},{"attributes":{},"id":"1023","type":"ZoomOutTool"},{"attributes":{},"id":"1004","type":"DataRange1d"},{"attributes":{},"id":"1029","type":"SaveTool"},{"attributes":{"below":[{"id":"1010"}],"center":[{"id":"1013"},{"id":"1017"}],"left":[{"id":"1014"}],"renderers":[{"id":"1056"}],"title":{"id":"1058"},"toolbar":{"id":"1037"},"x_range":{"id":"1002"},"x_scale":{"id":"1006"},"y_range":{"id":"1004"},"y_scale":{"id":"1008"}},"id":"1001","subtype":"Figure","type":"Plot"},{"attributes":{"overlay":{"id":"1033"}},"id":"1030","type":"BoxSelectTool"},{"attributes":{"overlay":{"id":"1036"}},"id":"1031","type":"PolySelectTool"},{"attributes":{"formatter":{"id":"1063"},"ticker":{"id":"1011"}},"id":"1010","type":"LinearAxis"},{"attributes":{"overlay":{"id":"1035"}},"id":"1032","type":"LassoSelectTool"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"1018"},{"id":"1019"},{"id":"1020"},{"id":"1021"},{"id":"1022"},{"id":"1023"},{"id":"1024"},{"id":"1025"},{"id":"1026"},{"id":"1027"},{"id":"1028"},{"id":"1029"},{"id":"1030"},{"id":"1031"},{"id":"1032"}]},"id":"1037","type":"Toolbar"},{"attributes":{"fill_alpha":{"value":0.6},"fill_color":{"field":"fill_color"},"line_color":{"value":null},"radius":{"field":"radius","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1054","type":"Circle"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"fill_color"},"line_alpha":{"value":0.1},"line_color":{"value":null},"radius":{"field":"radius","units":"data"},"x":{"field":"x"},"y":{"field":"y"}},"id":"1055","type":"Circle"},{"attributes":{"source":{"id":"1053"}},"id":"1057","type":"CDSView"},{"attributes":{"fill_alpha":0.5,"fill_color":"lightgrey","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"xs_units":"screen","ys_units":"screen"},"id":"1036","type":"PolyAnnotation"},{"attributes":{},"id":"1002","type":"DataRange1d"},{"attributes":{"data_source":{"id":"1053"},"glyph":{"id":"1054"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"1055"},"selection_glyph":null,"view":{"id":"1057"}},"id":"1056","type":"GlyphRenderer"},{"attributes":{},"id":"1063","type":"BasicTickFormatter"},{"attributes":{},"id":"1008","type":"LinearScale"},{"attributes":{},"id":"1025","type":"UndoTool"},{"attributes":{},"id":"1011","type":"BasicTicker"},{"attributes":{"axis":{"id":"1010"},"ticker":null},"id":"1013","type":"Grid"},{"attributes":{},"id":"1064","type":"UnionRenderers"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1033","type":"BoxAnnotation"},{"attributes":{},"id":"1020","type":"PanTool"},{"attributes":{"axis":{"id":"1014"},"dimension":1,"ticker":null},"id":"1017","type":"Grid"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"render_mode":"css","right_units":"screen","top_units":"screen"},"id":"1034","type":"BoxAnnotation"},{"attributes":{"formatter":{"id":"1061"},"ticker":{"id":"1015"}},"id":"1014","type":"LinearAxis"}],"root_ids":["1001"]},"title":"Bokeh Application","version":"2.0.1"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('1202').textContent;
+                  var render_items = [{"docid":"5750a0bd-7912-4071-87c7-a98d5cdeac92","root_ids":["1001"],"roots":{"1001":"916944e7-16be-4e41-bf4e-47b6ec3dbdcb"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
