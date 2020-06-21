@@ -14,7 +14,7 @@ Adicionalmente serão aidicionadas informações de indicadores e propriedades d
 
 Alguns dos arquivos *ipynb* sao apenas a caracter de teste.
 
-##### Para ver o arquivo definitivo do trabalho, abra o **Covid19.ipynb** que está na raiz do projeto. Caso tenha dificuldades em abrir o arquivo direto pelo GitHub, tente copiar a URL do mesmo e colar no [NbViewer](https://nbviewer.jupyter.org/)
+##### Para ver o arquivo definitivo do trabalho, abra o **Covid19.ipynb** que está na raiz do projeto. Caso tenha dificuldades em abrir o arquivo direto pelo GitHub, tente copiar a URL do mesmo e colar no site [NbViewer](https://nbviewer.jupyter.org/).
 
 ##### Os dados em *.csv* estão todos na pasta *data/* e são essencialmente partes do arquivo original (salvo alteracões diminutas) baixado na plataforma do Governo Federal.
 
