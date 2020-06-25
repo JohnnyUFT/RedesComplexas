@@ -12,7 +12,7 @@ Adicionalmente serão aidicionadas informações de indicadores e propriedades d
 * Autovetor;
 * e outros.
 
-Alguns dos arquivos *ipynb* sao apenas a caracter de teste.
+Alguns dos arquivos *ipynb* existem apenas em função de testar algumas funcionalidades das bibliotecas utilizadas nesse trabalho.
 
 ##### Para ver o arquivo definitivo do trabalho, abra o **Covid19.ipynb** que está na raiz do projeto. Caso tenha dificuldades em abrir o arquivo direto pelo GitHub, tente copiar a URL do mesmo e colar no site [NbViewer](https://nbviewer.jupyter.org/).
 
@@ -24,6 +24,8 @@ Alguns dos arquivos *ipynb* sao apenas a caracter de teste.
 [Stanford Dataset Collection](http://snap.stanford.edu/data/)
 
 [Base de Dados Covid-19 do SUS](https://covid.saude.gov.br/). Mais informações em [SUS Analítico](https://susanalitico.saude.gov.br/).
+
+[Instituto Nacional de Pesquisas Espaciais](http://www.inpe.br/).
 
 
 ### Anotacoes da aula:
