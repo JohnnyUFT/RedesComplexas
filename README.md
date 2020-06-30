@@ -33,7 +33,7 @@ Alguns dos arquivos *ipynb* existem apenas em função de testar algumas funcion
 -
 -
 
-### Instruçõe para instalação:
+### Instrucoes para instalacao de pacotes:
 Recomendamos fortemente o uso do gerenciador de pacotes [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) para instalação dos pacotes contidos no arquivo *requirements.txt*
 
 A instalação pode ser feita um pacote por vez:
