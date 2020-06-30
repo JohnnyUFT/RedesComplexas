@@ -33,7 +33,27 @@ Alguns dos arquivos *ipynb* existem apenas em função de testar algumas funcion
 -
 -
 
+### Instruçõe para instalação:
+Recomendamos fortemente o uso do gerenciador de pacotes [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) para instalação dos pacotes contidos no arquivo *requirements.txt*
 
+A instalação pode ser feita um pacote por vez:
+
+```sh
+$ conda install pandas
+$ conda install networkx
+$ conda install bokeh
+```
+ou simplesmente criando um ambiente virtual e instalando todos os pacotes a partir do arquivo *requirements.txt*:
+```sh
+$ conda create --name <escolha-nome-do-ambiente> --file requirements.txt
+$ conda activate <nome-do-ambiente-escolhido-anteriormente>
+```
+
+## Contributing
+*Pull Requests* são sempre bem vindos. Para maiores alterações, favor abrir uma *issue* para discussão do que gostaria de ser adicionado/alterado/removido.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ### Palavras-chaves:
 *Redes Complexas*, *Grafos*, *Covid19*, *Coranavirus Brasil*
