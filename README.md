@@ -1,6 +1,6 @@
 ## Disciplina de Redes Complexas - UFT 2020/1
 ### Professor: Gentil Veloso
-### Alunos: Johnny Gomes e Nomeriano Neto
+### Alunos: Johnny Gomes, Nomeriano Neto, Reinaldo Ribeiro
 
 ### Proposta do trabalho:
 Criação de uma **rede complexa** em formato de grafo com informações sobre a pandemia do novo coronavírus no Brasil.
