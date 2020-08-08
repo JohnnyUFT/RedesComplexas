@@ -6,7 +6,7 @@
 Criação de uma **rede complexa** em formato de grafo com informações sobre a pandemia do novo coronavírus no Brasil.
 Esse trabalho tem por objetivo mostrar, de forma dinâmica e interativa o crescimento exponencial de casos, bem como o número de mortes causadas pela infecção do vírus *Sars-Cov-2* no Brasil. Foi criado um grafo das regiões do país através de suas conexões geográficas e a partir delas foi adicionado nós-estados de cada região. Por fim, foram adicionadas informações de novos casos e mortes em cada nó-estado e a soma desses para cada nó-região. Ressalta-se que esta abordagem deve introduzir uma nova forma de visualização das mesmas informações já conhecidas através de gráficos convencionais permitindo que o leitor possa ver esses dados sob uma perspectiva diferente do convencional.
 
-Adicionalmente serão aidicionadas informações de indicadores e propriedades de grafos, como:
+Adicionalmente serão extraídas informações de indicadores e propriedades de grafos, como:
 * Centralidade;
 * Betweeness;
 * Autovetor;
@@ -16,7 +16,7 @@ Alguns dos arquivos *ipynb* existem apenas em função de testar algumas funcion
 
 ##### Para ver o arquivo definitivo do trabalho, abra o **Covid19.ipynb** que está na raiz do projeto. Caso tenha dificuldades em abrir o arquivo direto pelo GitHub, tente copiar a URL do mesmo e colar no site [NbViewer](https://nbviewer.jupyter.org/).
 
-##### Os dados em *.csv* estão todos na pasta *data/* e são essencialmente partes do arquivo original (salvo alteracões diminutas) baixado na plataforma do Governo Federal.
+##### Os dados em *.csv* estão todos na pasta *data/* e são essencialmente partes do arquivo original (salvo alterações diminutas) baixado na plataforma do Governo Federal.
 
 
 
@@ -56,4 +56,4 @@ $ conda activate <nome-do-ambiente-escolhido-anteriormente>
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ### Palavras-chaves:
-*Redes Complexas*, *Grafos*, *Covid19*, *Coranavirus Brasil*
+*Redes Complexas*, *Grafos*, *Covid19*, *Coronavirus Brasil*
